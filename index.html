@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitepace</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header style="background-image: url(./assets/img/background-home.jpg);">
+        <div class="container">
+            <nav>
+                <a href="index.html"><img src="./assets/img/logo.png" alt="Logo"></a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre_nos.html">Sobre nós</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="contato.html" class="btn">Contato</a>
+                    <div class="close_icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+                <div class="menu_icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner_text">
+                    <h1>Whitepace</h1>
+                    <p>Construa sua marca, conquiste o mundo sem habilidades de código ou design necessárias.</p>
+                    <a href="contato.html" class="btn animate_btn">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+    </header>
+    <section class="faca_mais">
+        <div class="container">
+            <div class="faca_mais_text">
+                <h3>Faça Mais com a Whitepace</h3>
+                <p>Criaçao de websites, lojas virtuais, blogs para pequenas, médias e grandes empresas. Ter um site nunca foi tão fácil!</p>
+                <a href="contato.html" class="btn">Entrar em contato</a>
+            </div>
+            <div class="faca_mais_img"><img src="./assets/img/img-1.png" alt=""></div>
+        </div>
+    </section>
+    <section class="faca_mais">
+        <div class="container">
+            <div class="faca_mais_img"><img src="./assets/img/img-2.png" alt=""></div>
+            <div class="faca_mais_text">
+                <h3>Ter um website nunca foi tão fácil</h3>
+                <p>Agora com a nossa empresa ter um website é algo incrivelmente fácil, basta entrar em contato para desenvolvermos o seu
+                    website.</p>
+                <a href="contato.html" class="btn">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Depoimentos</h3>
+            <p>Leia o que nossos clientes acham sobre a empresa</p>
+            <div class="cards">
+                <div class="card_item">
+                    <img src="./assets/img/me.jpeg" alt="Cliente1">
+                    <p class="nome_user">Kaiky Martins</p>
+                    <p class="depoimento_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                         been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
+                          electronic typesetting, remaining essentially unchanged.</p>
+                    <div class="estrelas">
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                         <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card_item">
+                    <img src="./assets/img/baptista.jpg" alt="Cliente2">
+                    <p class="nome_user">Baptista Miranda</p>
+                    <p class="depoimento_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                         been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
+                          electronic typesetting, remaining essentially unchanged.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card_item">
+                    <img src="./assets/img/defante.jpg" alt="Cliente3">
+                    <p class="nome_user">Diogo Pereira</p>
+                    <p class="depoimento_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                         been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into 
+                          electronic typesetting, remaining essentially unchanged.</p>
+                    <div class="estrelas">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="nossos_clientes">
+        <div class="container">
+            <h3>Nossos Clientes</h3>
+            <p>Prestamos serviços a todo tipo de empresa ou projeto, esses são alguns de nossos clientes</p>
+            <div>
+                <img src="./assets/img/apple.png" alt="Apple">
+                <img src="./assets/img/microsoft.png" alt="Microsoft">
+                <img src="./assets/img/slack.png" alt="Slack">
+                <img src="./assets/img/google.png" alt="Google">
+            </div>
+        </div>
+    </section>
+    <section class="faca_mais">
+        <div class="container">
+            <div class="faca_mais_text">
+                <h3>Tenha um webiste mais seguro</h3>
+                <p>Nós trabalhamos com tecnologias atualizadas, ágeis e as mais seguras do mercado. Fazemos backup e manutenção de seu
+                     site em um tempo recorde.
+                </p>
+                <a href="contato.html" class="btn">Entrar em contato</a>
+            </div>
+            <div class="faca_mais_img"><img src="./assets/img/security.png" alt=""></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Kaiky</p>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
